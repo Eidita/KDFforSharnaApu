@@ -1,0 +1,33 @@
+Step-1
+   Create maven project
+ Step-2
+       Set Pom.xml file:
+		1.add properties
+		2.add updated selenium dependencies from maven repository
+		3.add updated TestNg dependencies
+		4.add updated Bonigarcia
+		5.add updated plug-ins
+		6.then save it
+Step-3
+   Maven force update with pom.xml
+    
+step-4
+	Create package  and class in src/main/java
+
+step-5
+ 	Build PropertiesReader in the utilities package and create method for each key.
+  
+     
+ step-6
+	1.Build BaseTest with is-a-relationship
+    2.Open browser and application
+    3.Close browser and application
+ 
+ 
+ step-7
+    Create packages for different pages using page object model style of coding
+   
+ step-8
+     1.Develop packages for different tests using TestNg 
+     2.Use BaseTest as is a relationship
+     3.Login page and properties reader use has-a-relationship
